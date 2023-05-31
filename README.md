@@ -17,6 +17,12 @@ Gathering data could be either real/near real time or in a regular interval whic
 
 ![Batch Architecture Microsoft Fabric](images/batch.png)
 
-### Gathering your Data 
+### Gathering your Data / Collecting Data
+
+Fabric provides one storage layer per tenant. This is called [OneLake](https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview). This helps gets rid of the overhead of managing and securing multiple storage accounts. The whole organization would have governed access to one lake which functions as your "one drive for your organization's data".
+
+In order to load the data to your storage layer Fabric offers you [Data Factory](https://learn.microsoft.com/en-us/fabric/data-factory/data-factory-overview). If you are coming from a power bi world , data flows are inside the data factory component too. Capabiliites like fastcopy are integrated which will help you to load data at blazing fast speeds.
+
+To get hands on , lets start with [loading the data](/docs/load_data_datafactory.md) 
 
 
