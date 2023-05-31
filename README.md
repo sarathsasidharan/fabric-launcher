@@ -11,6 +11,12 @@ Microsoft Offers a wide range of tooling for data analysis. This choice usually 
 
 In any organization deriving value from data assets have a common path. It starts with gathering your data , curating it to understand what they mean and finally generating business value from it.  Let us break these sections down , which will help us grasp how does microsoft fabric help here. </br>
 
+Gathering data could be either real/near real time or in a regular interval which could be scheduled to run at a particular interval.
+
+### Batch Architecture Microsoft Fabric
+
+![Batch Architecture Microsoft Fabric](images/batch.png)
+
 ### Gathering your Data 
 
 
