@@ -1,5 +1,5 @@
 # Fabric Launcher
-These blogs are built for you to understand what is Microsoft Fabric and help you derive value out of data. 
+These blogs are built  to understand what is Microsoft Fabric and help you derive value out of data. 
 
 ## What is Microsoft Fabric ? <br />
 Microsoft Fabric can be thought of as an office for your orginizational data. Just like you are used to word/powerpoint/excel in office , fabric offers you tooling to work and create insights from your data.
