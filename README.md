@@ -23,6 +23,6 @@ Fabric provides one storage layer per tenant. This is called [OneLake](https://l
 
 In order to load the data to your storage layer Fabric offers you [Data Factory](https://learn.microsoft.com/en-us/fabric/data-factory/data-factory-overview). If you are coming from a power bi world , data flows are inside the data factory component too. Capabiliites like fastcopy are integrated which will help you to load data at blazing fast speeds.
 
-To get hands on , lets start with [loading the data](/docs/load_data_datafactory.md) 
+To experience this first hand and find out the ease of use , lets start with [loading the data](/docs/load_data_datafactory.md) 
 
 
