@@ -38,4 +38,4 @@ Users who are coming from a sql background , fabric offers [Synapse Data Warehou
 
 After your data is curated and ready the next step is to use this to create real business value. Fabric has the best in class BI tooling [Power BI](https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview) component to enable you to achive this. In a world of data driven decisions , time to detect singals and adjust are curtial. </br>
 
-This would madate these singals (changes in data) to be available inside the reports as soon as they appear in the data. Power BI has come up with [Direct Lake](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-pbi-reporting) , which does exactly this. This allows your reports to be fed with the latest data with blazing fast performance.
+This would mandate these singals (changes in data) to be available inside the reports as soon as they appear in the data. Power BI has come up with [Direct Lake](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-pbi-reporting) , which does exactly this. This allows your reports to be fed with the latest data with blazing fast performance.
