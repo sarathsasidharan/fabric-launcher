@@ -31,7 +31,7 @@ Data in its raw format is difficult to use. Reson for this are the way the data 
 
 Microsoft Fabric opens up these capabilites , by exposing tooling for both low-code/no-code citizen developers and code-first data engineeering personas. For users who are coming from a bi-background , [Data Factory](https://learn.microsoft.com/en-us/fabric/data-factory/data-factory-overview) , allows you to apply transformations on the data and get it ready for analysis. Familiarity with using DataFlows in Power BI will help you pick up Data Flow Gen2 capabilities on Fabric , which are used for data tranformations. </br>
 
-Users who are coming from a sql background , fabric offers [Synapse Data Warehouse](https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing) , which lets you curate the data using stored procedures. Last but not the least for code-first data engineering persons , who prefer spark , [Synapse Data Engineering](https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-overview) provides you a spark notebook experience to transform your data at scale. 
+Users who are coming from a sql background , fabric offers [Synapse Data Warehouse](https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing) , which lets you curate the data using stored procedures. Last but not the least for code-first data engineering personas , who prefer spark , [Synapse Data Engineering](https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-overview) provides you a spark notebook experience to transform your data at scale. 
 
 
 ### Create Insights </br>
