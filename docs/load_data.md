@@ -21,9 +21,8 @@ The third option for users familiar with azure , there is also support for [Azur
 
 ## Scalable Data Loading Scenarios
 
-This section covers more scalable data loading scenario. In most cases , data for analysis needs to flow in from transactional systems which are often hosted on-premise or third party systems. Fetching this data would require connecting to them and pulling the data to our storage area.
+This section covers more scalable data loading scenario. In most cases , data for analysis needs to be fetched  from transactional systems which are often hosted on-premise data centers or third party systems. Fetching this data would require connecting to them and pulling the data to our storage area.
 
-Microsoft Fabric offers Data Factory Component to load data from your sources into onelake. This could range from on-premise data sources (CRM systems/databases/ERP systems etc) , external data suppliers and even your own local machine. You could also use the [one lake file explorer](https://learn.microsoft.com/en-us/fabric/onelake/onelake-file-explorer) or the [lake house object explorer](https://learn.microsoft.com/en-us/fabric/data-engineering/navigate-lakehouse-explorer) in  fabric UI to upload files from your local machine to one lake directly. </br>
+Microsoft Fabric offers Data Factory Component to load data from your sources into onelake. This could range from on-premise data sources (CRM systems/databases/ERP systems etc) , external data suppliers and even your own local machine.</br>
 
-In many scenarios you might want to upload a local file and combine this with data coming in from other systems. These scenarios are enabled for you using Fabric. </br>
 
