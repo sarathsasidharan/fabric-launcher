@@ -15,7 +15,7 @@ Fabric UI , provides you an easy option to upload a file / folder into your OneL
 
 Another amazing utility Fabric provides is the [One Lake File Explorer](https://learn.microsoft.com/en-us/fabric/onelake/onelake-file-explorer). This gives you the real look and feel of "one drive for data" where you can view / download / upload any folder / file from your local filesystem.  
 
-
+![one_lake_file_explorer](/images/onelake-file-explorer.png)
 
 Microsoft Fabric offers Data Factory Component to load data from your sources into onelake. This could range from on-premise data sources (CRM systems/databases/ERP systems etc) , external data suppliers and even your own local machine. You could also use the [one lake file explorer](https://learn.microsoft.com/en-us/fabric/onelake/onelake-file-explorer) or the [lake house object explorer](https://learn.microsoft.com/en-us/fabric/data-engineering/navigate-lakehouse-explorer) in  fabric UI to upload files from your local machine to one lake directly. </br>
 
