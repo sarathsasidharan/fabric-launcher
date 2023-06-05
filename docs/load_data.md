@@ -17,7 +17,7 @@ Another amazing utility Fabric provides is the [One Lake File Explorer](https://
 
 ![one_lake_file_explorer](/images/onelake-file-explorer.png) 
 
-The third option for users familiar with azure , there is also support for [Azure Storage Explorer](https://learn.microsoft.com/en-us/fabric/onelake/onelake-azure-storage-explorer)
+The third option for users familiar with azure , there is also support for [Azure Storage Explorer](https://learn.microsoft.com/en-us/fabric/onelake/onelake-azure-storage-explorer).This provides you the ability to connet to a Lakehouse item and view / download / upload files or folders. 
 
 ## Scalable Data Loading Scenarios
 
