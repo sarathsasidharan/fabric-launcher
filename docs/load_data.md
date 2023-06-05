@@ -19,10 +19,5 @@ Another amazing utility Fabric provides is the [One Lake File Explorer](https://
 
 The third option for users familiar with azure , there is also support for [Azure Storage Explorer](https://learn.microsoft.com/en-us/fabric/onelake/onelake-azure-storage-explorer).This provides you the ability to connect to a Lakehouse item and view / download / upload files or folders. 
 
-## Scalable Data Loading Scenarios
-
-This section covers more scalable data loading scenario. In most cases , data for analysis needs to be fetched  from transactional systems which are often hosted on-premise data centers or third party systems. Fetching this data would require connecting to them and pulling the data to our storage area.
-
-Microsoft Fabric offers [Data Factory](https://learn.microsoft.com/en-us/fabric/data-factory/data-factory-overview) component to load data from your sources into onelake. This could range from on-premise data sources (CRM systems/databases/ERP systems etc) , external data suppliers and even your own local machine.</br>
-
+Next up we will discuss Scalable data loading options during the next blog.
 
