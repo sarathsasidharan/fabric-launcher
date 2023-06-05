@@ -23,6 +23,6 @@ The third option for users familiar with azure , there is also support for [Azur
 
 This section covers more scalable data loading scenario. In most cases , data for analysis needs to be fetched  from transactional systems which are often hosted on-premise data centers or third party systems. Fetching this data would require connecting to them and pulling the data to our storage area.
 
-Microsoft Fabric offers Data Factory Component to load data from your sources into onelake. This could range from on-premise data sources (CRM systems/databases/ERP systems etc) , external data suppliers and even your own local machine.</br>
+Microsoft Fabric offers [Data Factory](https://learn.microsoft.com/en-us/fabric/data-factory/data-factory-overview) component to load data from your sources into onelake. This could range from on-premise data sources (CRM systems/databases/ERP systems etc) , external data suppliers and even your own local machine.</br>
 
 
