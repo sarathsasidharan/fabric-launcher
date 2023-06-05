@@ -7,7 +7,11 @@ Working with customers over years , serving both these capabilites are equally i
 We will walk through both these scenarios. First one is the quick and easy way to get your data into onelake. </br>
 
 ## Less Complex Data Loading Scenarios
-We did talk about OneLake as being our "one drive for data". In order to load data into your OneLake , we need to create an item [lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview) within your Fabric workspace.This creates an item for you to load the data. There are two folders , namely the Files and Tables. The Files folder represent the unmanaged section of your lakehouse and Tables represents the managed area. Files section is where all data (structured / unstructured / semi-structured) in any format could land. Tables represents the structured data.   
+We did talk about OneLake as being our "one drive for data". In order to load data into your OneLake , we need to create an item [lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview) within your Fabric workspace.This creates an item for you to load the data. There are two folders , namely the Files and Tables. The Files folder represent the unmanaged section of your lakehouse and Tables represents the managed area. Files section is where all data (structured / unstructured / semi-structured) in any format could land. Tables represents the structured data.</br>
+
+Fabric UI , provides you an easy option to upload a file / folder into your OneLake. You can browse your local file system and load the folder / file containing the data which needs to be analyzed.
+
+![upload_data](/images/load-easy.png)
 
 
 Microsoft Fabric offers Data Factory Component to load data from your sources into onelake. This could range from on-premise data sources (CRM systems/databases/ERP systems etc) , external data suppliers and even your own local machine. You could also use the [one lake file explorer](https://learn.microsoft.com/en-us/fabric/onelake/onelake-file-explorer) or the [lake house object explorer](https://learn.microsoft.com/en-us/fabric/data-engineering/navigate-lakehouse-explorer) in  fabric UI to upload files from your local machine to one lake directly. </br>
