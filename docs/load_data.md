@@ -34,4 +34,6 @@ After the switch you would need to select the New SQL Query Option at the top an
 
 Even further if you are a PBI /BI dev and would prefer power bi , then this data also gets added to a powerbi dataset for you to analyze without any work from your end. You could click on the Model tab at the bottom and this should allow you start working with your data in power bi. More on this in a later blog. For now , the first step to get the data into the platform is done and options to quickly get it to work for your needs is enabled by fabric.
 
-![/power_bi](images/pbi.png)
+![power_bi](/images/power_bi.png)
+
+This blog we have focussed on ad-hoc / quick ways to upload your data into fabric. Next up we will cover how would you load data at scale and what fabric offers in that space. Stay Tuned !
