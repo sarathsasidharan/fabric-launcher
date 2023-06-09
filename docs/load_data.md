@@ -28,5 +28,8 @@ From here you Fabric provides you an option to query the data using your SQL Ski
 
 ![sql_endpoint](/images/sql_endpoint.png)
 
+After the switch you would need to select the New SQL Query Option at the top and start with analysing your data using sql. There is also a [visiual query builder](https://learn.microsoft.com/en-us/fabric/data-warehouse/visual-query-editor) feature for users who are new to SQL but come from a PBI data flow background to help you build queries.
+
+![sql_query](/images/sql_query.png)
 
 Even further if you are a PBI /BI dev and would prefer power bi , then this data also gets added to a powerbi dataset for you to analyze without any work from your end. 
