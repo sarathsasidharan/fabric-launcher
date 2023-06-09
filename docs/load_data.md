@@ -2,7 +2,7 @@
 
 Loading data into your storage layer is the first step.  This can repesent varying levels of complexity which could be loading data from your local machine to more complicated ones like pulling data from your data centers / external file locations / other systems. </br>
 
-Working with customers over years , serving both these capabilites are equally important and impacts productivity. Fabric serves both these scenarios , by providng you easy interfaces to load your data from your local machine and also cater to creating complex data pipelines to extract the desired datasets. </br>
+Working with customers over years , serving both these capabilites are equally important and impacts productivity. Fabric serves both these scenarios , by providing you easy interfaces to load your data from your local machine and also cater to creating complex data pipelines to extract the desired datasets. </br>
 
 We will walk through both these scenarios. First one is the quick and easy way to get your data into onelake. </br>
 
