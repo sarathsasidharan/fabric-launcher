@@ -19,7 +19,14 @@ Another amazing utility Fabric provides is the [One Lake File Explorer](https://
 
 The third option for users familiar with azure , there is also support for [Azure Storage Explorer](https://learn.microsoft.com/en-us/fabric/onelake/onelake-azure-storage-explorer).This provides you the ability to connect to a Lakehouse item and view / download / upload files or folders. 
 
-Once the data is uploaded , whats next. We need to work with the data.  If you are from the SQL world , Fabric gives you a super fast option to start querying the data you have loaded. Right click the file loaded and select load to table option. With this the engine creates a table for you to start querying your data.
+Once the data is uploaded , whats next. We need to work with the data.  If you are from the SQL world , Fabric gives you a super fast option to start querying the data you have loaded. Right click the file loaded and select load to table option. That's it without having to create table explicilty Fabric does the plumbing to create the table for you.
 
 
-![load_to_table](/images/load_table.png)
+![load_to_table](/images/load_to_table.png)
+
+From here you Fabric provides you an option to query the data using your SQL Skills. Switch to the SQL endpoint view by clicking on the top right corner.
+
+![sql_endpoint](/images/sql_endpoint.png)
+
+
+Even further if you are a PBI /BI dev and would prefer power bi , then this data also gets added to a powerbi dataset for you to analyze without any work from your end. 
