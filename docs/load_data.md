@@ -37,3 +37,5 @@ Even further if you are a PBI /BI dev and would prefer power bi , then this data
 ![power_bi](/images/power_bi.png)
 
 This blog we have focussed on ad-hoc / quick ways to upload your data into fabric. Next up we will cover how would you load data at scale and what fabric offers in that space. Stay Tuned !
+
+Microsoft Fabric is intended to make things easier and quicker for you and your organization to achieve more from data , in case you have ideas which could make this even better , please post your ideas to : https://ideas.fabric.microsoft.com/ , you could search if its been already requested and upvote for your features to get into our dev list.
