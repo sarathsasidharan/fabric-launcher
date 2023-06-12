@@ -1,1 +1,2 @@
-
+#  Loading Data At Scale
+Previous blog we discussed what options Microsoft Fabric provides to load smaller files on an ad-hoc basis. This one we focus on what are the options avaiable to load larger datasets into Fabric. First section we will focus on how to do this one off , by connecting to the data source and pulling this data into Fabric , followed by scheduling the load of data at a regular interval. Metadata Driven copy will be discussed which is a neat way to implement data loads at larger organizations which have a large number of data objects which need to be pulled.
