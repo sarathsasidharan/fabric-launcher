@@ -5,4 +5,4 @@ Microsoft Fabric offers [Data Factory](https://learn.microsoft.com/en-us/fabric/
 
 # Load Data - Manual
 
-Fabric provides you capabilities in both Data Flow Gen2 as well as Data Pipelines to load your data.
+Fabric provides you capabilities in both Data Flow Gen2 as well as Data Pipelines to load your data. For relatively smaller files/files from SharePoint locations, Data Flow Gen2 provides you with the GetData option to fetch data from a multitude of sources. 
