@@ -1,8 +1,8 @@
 #  Loading Data At Scale
 In the previous blog, we discussed what options Microsoft Fabric provides to load smaller files on an ad-hoc basis.  For larger datasets, Fabric provides you with highly scalable options to load the dataset at great speeds. These could also be scheduled to run on a regular basis where you will have scenarios where your sources are updated once a day (for example). For more advanced users, techniques like Metadata Driven copy will be discussed, which is a neat way to implement data loads at larger organizations having a large number of data objects. </br>
 
-Microsoft Fabric offers [Data Factory](https://learn.microsoft.com/en-us/fabric/data-factory/) , which is a SaaS offering for data loading , transforming data to the form understandable for business and orchestration of the processes involved. Data Factory provides Data Flow Gen2 and Pipelines as two compoenents. For users coming from a power bi background , you would be familiar with data flows which is used to transform data. Data Flow Gen2 is similar and provides low-code/citizen developer capabilites to prepare your data. Data Pipelines provides great data orchestration capabilities to load data into your storage layer. </br>
+Microsoft Fabric offers [Data Factory](https://learn.microsoft.com/en-us/fabric/data-factory/), which is a SaaS offering for data loading, transforming data to the form understandable for business, and orchestration of the processes involved. Data Factory provides Data Flow Gen2 and Pipelines as two components. For users coming from a power bi background, you would be familiar with data flows that are used to transform data. Data Flow Gen2 is similar and provides low-code/citizen developer capabilities to prepare your data. Data Pipelines provides great data orchestration capabilities to load data into your storage layer. </br>
 
 # Load Data - Manual
 
-Fabric provides you capabilites in both Data Flow Gen2 as well as Data Pipelines to load your data. 
+Fabric provides you capabilities in both Data Flow Gen2 as well as Data Pipelines to load your data.
