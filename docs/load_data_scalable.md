@@ -5,4 +5,6 @@ Microsoft Fabric offers [Data Factory](https://learn.microsoft.com/en-us/fabric/
 
 # Load Data - Manual
 
-Fabric provides you capabilities in both Data Flow Gen2 as well as Data Pipelines to load your data. For relatively smaller files/files from SharePoint locations, Data Flow Gen2 provides you with the GetData option to fetch data from a multitude of sources. 
+Fabric provides you capabilities in both Data Flow Gen2 as well as Data Pipelines to load your data. For relatively smaller files/files from SharePoint locations, Data Flow Gen2 provides you with the GetData option to fetch data from a multitude of sources. This contains 150+ connectors to different sources you can connect to get your data. Using Data Flow Gen2 you can also load data from the OneLake storage. Option to upload a file from the local machine , using drag and drop is also avaialbe.
+
+![load_options_]
