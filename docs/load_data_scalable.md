@@ -3,7 +3,7 @@ In the previous blog, we discussed what options Microsoft Fabric provides to loa
 
 Microsoft Fabric offers [Data Factory](https://learn.microsoft.com/en-us/fabric/data-factory/), which is a SaaS offering for data loading, transforming data to the form understandable for business, and orchestration of the processes involved. Data Factory provides Data Flow Gen2 and Pipelines as two components. For users coming from a power bi background, you would be familiar with data flows that are used to transform data. Data Flow Gen2 is similar and provides low-code/citizen developer capabilities to prepare your data. Data Pipelines provides great data orchestration capabilities to load data into your storage layer. </br>
 
-# Load Data - Manual
+# Load Data - One Time
 
 Fabric provides you capabilities in both Data Flow Gen2 as well as Data Pipelines to load your data. For relatively smaller files, Data Flow Gen2 provides you with the GetData option to fetch data from a multitude of sources. This contains 150+ connectors to different sources you can connect to get your data. Using Data Flow Gen2 you can also load data from the OneLake storage. The option to upload a file from the local machine, using drag and drop is also available.
 
@@ -13,4 +13,6 @@ Pipelines provide a scalable option to pull in large datasets using [copy activi
 
 ![load_data](/images/copy_assistant.png)
 
-# Load Data - 
+# Load Data - Scheduled 
+
+With Data Factory Data Pipelines, fabric provides you with a scalable and easy-to-use orchestration engine. It also provides options for re-use by providing the ability to parameterize values, which helps to create dynamic pipelines.
