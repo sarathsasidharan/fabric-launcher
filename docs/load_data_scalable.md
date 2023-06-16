@@ -30,7 +30,7 @@ It's easy to set up the Lookup activity, it just needs to point to the configura
 
 ![lookup](/images/lookup.png)
 
- Next up this list of tables retrieved from the table have to be copied into the storage. Pipelines provide you with a control flow activity, which is the [ForEach](https://learn.microsoft.com/en-us/fabric/data-factory/foreach-activity) activity. This allows us to iterate through the list of tables retrieved from the configuration table and copies it into the storage.
+ Next up this list of tables retrieved from the table have to be copied into the storage. Data Pipelines provide you with a control flow activity, which is the [ForEach](https://learn.microsoft.com/en-us/fabric/data-factory/foreach-activity) activity. This allows us to iterate through the list of tables retrieved from the configuration table and copies it into the storage.
 
 In order to retrieve the values from the lookup activity, pipelines provide you with the magical activity output which helps you with this. This is super easy since when the item's text box is selected the dynamic content builder will help with getting the right parameter values. 
 
