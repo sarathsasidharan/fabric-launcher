@@ -36,7 +36,8 @@ In order to retrieve the values from the lookup activity, pipelines provide you 
 
 ![for-loop](/images/for-loop.png)
 
-Insider the ForEach Activity, the copy activity is added which accepts the table name and executes the copy. 
+Insider the ForEach Activity, the copy activity is added which accepts the table name as a parameter and executes the copy. This is both for the source table and the sink table name which is in a lakehouse.
+![source-table](/images/source-table.png)
 
 
 
