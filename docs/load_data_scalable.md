@@ -54,5 +54,7 @@ Pipelines are ready and kicking, the next part is to automate this. Fabric via D
 
 Last but not least, Fabric Data Pipelines provides you the [Outlook activity](https://learn.microsoft.com/en-us/fabric/data-factory/tutorial-end-to-end-integration#add-an-office-365-outlook-activity-to-your-pipeline), which is a super cool feature to send your a mail notification. This is a great feature to notify the status of important /business critical jobs as they are completed.
 
+Microsoft Fabric is intended to make things easier and quicker for you and your organization to achieve more from data, in case you have ideas that could make this even better, please post your ideas to: https://ideas.fabric.microsoft.com/ , you could search if it has been already requested and upvote for your features to get into our dev list.
+
 
 
