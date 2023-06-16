@@ -22,7 +22,7 @@ In any organization, you will have a lot of data sources and tables/files within
 
 ![config](/images/config_table.png)
 
-Lookup activity reads this configuration table. Next up this list of tables retrieved from the table have to be copied into the storage. Pipelines provide you with a control flow activity, which is the [ForEach](https://learn.microsoft.com/en-us/fabric/data-factory/foreach-activity) activity. This allows us to iterate through the list of tables retrieved from the configuration table and copies it into the storage.
+Lookup activity reads this configuration table.
 
 ![pipeline](/images/meta_pipe.png)
 
@@ -30,4 +30,15 @@ It's easy to set up the Lookup activity, it just needs to point to the configura
 
 ![lookup](/images/lookup.png)
 
-Insider the ForEach Activity, the copy activity is added which accepts the table name and executes the copy. In this case, it's copying it to a [lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview). This is immediately available to query using SQL. 
+ Next up this list of tables retrieved from the table have to be copied into the storage. Pipelines provide you with a control flow activity, which is the [ForEach](https://learn.microsoft.com/en-us/fabric/data-factory/foreach-activity) activity. This allows us to iterate through the list of tables retrieved from the configuration table and copies it into the storage.
+
+In order to retrieve the values from the lookup activity, pipelines provide you with the magical activity output which helps you with this.
+
+![for-loop](/images/for-loop.png)
+
+Insider the ForEach Activity, the copy activity is added which accepts the table name and executes the copy. 
+
+
+
+In this case, it's copying it to a [lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview). This is immediately available to query using SQL. 
+
