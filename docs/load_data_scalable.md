@@ -23,3 +23,5 @@ In any organization, you will have a lot of data sources and tables/files within
 ![config](/images/config_table.png)
 
 Lookup activity reads this configuration table. Next up this list of tables retrieved from the table have to be copied into the storage. Pipelines provide you with a control flow activity, which is the [ForEach](https://learn.microsoft.com/en-us/fabric/data-factory/foreach-activity) activity. This allows to iterate through the list of tables retrieved from the configuration table and copies it into the storage.
+
+![pipeline](/images/meta_pipe.png)
