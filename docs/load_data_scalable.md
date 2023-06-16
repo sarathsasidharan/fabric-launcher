@@ -26,4 +26,4 @@ Lookup activity reads this configuration table. Next up this list of tables retr
 
 ![pipeline](/images/meta_pipe.png)
 
-Insider the ForEach Activity, the copy activity is added which accepts the table name and executes the copy. In this case, it's copying it to a [lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview).
+Insider the ForEach Activity, the copy activity is added which accepts the table name and executes the copy. In this case, it's copying it to a [lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview). This is immediately available to query using SQL. 
