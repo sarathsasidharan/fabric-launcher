@@ -9,7 +9,7 @@ Fabric provides you capabilities in both Dataflows Gen2 as well as Data Pipeline
 
 ![load_options_dfg2](/images/connect_options_dfg2.png)
 
-Pipelines provide a scalable option to pull in large datasets using [copy activity](https://learn.microsoft.com/en-us/fabric/data-factory/copy-data-activity). Fabric provides you with a copy assistant which helps to easily connect to a source where the data is residing and then copy it to the storage, which is OneLake. 
+Data Pipelines provide a scalable option to pull in large datasets using [copy activity](https://learn.microsoft.com/en-us/fabric/data-factory/copy-data-activity). It provides you with a copy assistant which helps to easily connect to a source where the data is residing and then copy it to the storage, which is OneLake. 
 
 ![load_data](/images/copy_assistant.png)
 
