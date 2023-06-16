@@ -1,5 +1,5 @@
 #  Loading Data At Scale
-In the previous blog, we discussed what options Microsoft Fabric provides to load smaller files on an ad-hoc basis.  To ingest larger datasets, Fabric provides you with highly scalable options to load the dataset at great speeds. These could also be scheduled to run on a regular basis. For more advanced users, techniques like Metadata Driven copy will be discussed, which is a neat way to implement data loads at larger organizations having a large number of data objects. </br>
+In the previous blog, we discussed what options Microsoft Fabric provides to load smaller files on an ad-hoc basis.  To ingest larger datasets, Fabric provides you with highly scalable options to load dataset at great speeds. These could also be scheduled to run on a regular basis. For more advanced users, techniques like Metadata Driven copy will be discussed, which is a neat way to implement data loads at larger organizations having a large number of data objects. </br>
 
 Microsoft Fabric offers [Data Factory](https://learn.microsoft.com/en-us/fabric/data-factory/), which is a SaaS offering for data loading, transforming data to the form understandable for business, and orchestration of the processes involved. Data Factory provides Data Flow Gen2 and Pipelines as two components. For users coming from a power bi background, you would be familiar with data flows that are used to transform data. Data Flow Gen2 is similar and provides low-code/citizen developer capabilities to prepare your data. Data Pipelines provides great data orchestration capabilities to load data into your storage layer. </br>
 
@@ -36,10 +36,13 @@ In order to retrieve the values from the lookup activity, pipelines provide you 
 
 ![for-loop](/images/for-loop.png)
 
-Insider the ForEach Activity, the copy activity is added which accepts the table name as a parameter and executes the copy. This is both for the source table and the sink table name which is in a lakehouse.
+Insider the ForEach Activity, the copy activity is added which accepts the table name as a parameter and executes the copy. The parameterization for the source is represented below.
 ![source-table](/images/source-table.png)
 
+Similar to the source the sink needs to be parameterized too, also do note that the sink is into the lakehouse.  This is going to automatically create a table inside the lakehouse.
+![sink-table](/images/sink-table.png)
+
+In this case, it's copying it to a [lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview). This is immediately available to query using T-SQL.
 
 
-In this case, it's copying it to a [lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview). This is immediately available to query using SQL. 
 
