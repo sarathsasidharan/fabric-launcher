@@ -50,5 +50,9 @@ In this case, it's copying it to a [lakehouse](https://learn.microsoft.com/en-us
 
 Pipelines are ready and kicking, the next part is to automate this. Fabric via Data Pipelines provides you with [scheduling](https://learn.microsoft.com/en-us/fabric/data-factory/pipeline-runs#scheduled-data-pipeline-runs) capabilities to trigger these pipelines. This helps to run this data load operation at regular intervals based on how your data arrives. Scheduling is available up to a minute interval. For PBI users, these pipelines can also trigger data flow gen2 refreshes.
 
+## Notifications
+
+Last but not least, Fabric Data Pipelines provides you the [Outlook activity](https://learn.microsoft.com/en-us/fabric/data-factory/tutorial-end-to-end-integration#add-an-office-365-outlook-activity-to-your-pipeline), which is a super cool feature to send your a mail notification. This is a great feature to notify the status of important /business critical jobs as they are completed.
+
 
 
