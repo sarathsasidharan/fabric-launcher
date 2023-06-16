@@ -16,3 +16,6 @@ Pipelines provide a scalable option to pull in large datasets using [copy activi
 # Load Data - Scheduled 
 
 With Data Factory Data Pipelines, fabric provides you with a scalable and easy-to-use orchestration engine. Due to its SaaS nature, the engine decides how many resources to use providing you the necessary speed to load data. Data Pipelines  provide options for re-use by having parameters that help to create dynamic pipelines. Want to use pre-built pipelines for loading data, Fabric provides you with [templates](https://learn.microsoft.com/en-us/fabric/data-factory/templates) that can be leveraged. These templates cover common scenarios which are used to load data from different sources.
+
+## Metadata Driven Load 
+In any organization, you will have a lot of data sources and tables/files within these sources which need to be imported to your storage. Creating a single pipeline per table/file is a nightmare to manage and duplication of work. Data Pipelines provides you the option to get rid of this. By parameterizing these table/file names you no longer have to create hundreds of pipelines. Using [Lookup activity](https://learn.microsoft.com/en-us/fabric/data-factory/lookup-activity) you can create a configuration file/table in a database where you could define the metadata of these objects.
