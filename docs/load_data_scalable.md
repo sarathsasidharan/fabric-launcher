@@ -44,5 +44,7 @@ Similar to the source the sink needs to be parameterized too, also do note that 
 
 In this case, it's copying it to a [lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview). This is immediately available to query using T-SQL.
 
+![lake-house](/images/lake-house.png)
+
 
 
