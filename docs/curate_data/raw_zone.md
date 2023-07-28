@@ -6,5 +6,7 @@ On a high level, this pattern is all about landing your data into a zone that pr
 
 We will use a similar approach where data in its raw format is copied into the raw zone. The raw zone represents the data in its native format of the source. Examples of this are csv, avro,txt,parquet, xml,json etc. In the previous [blog](https://github.com/sarathsasidharan/fabric-launcher/blob/main/docs/load_data/load_data_scalable.md) we discussed on how fabric provides you easy options to load your data at scale. 
 
+![raw_load](images/raw_layer.png)
+
 
 
