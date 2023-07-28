@@ -4,9 +4,10 @@ Once the data has landed in Fabric, the next step is to prepare the data for gen
 
 On a high level, this pattern is all about landing your data into a zone that preserves the data in its native form. The second layer is about cleaning up the data to improve data quality and the final layer is where the data is modeled and made ready for consumption for business teams.
 
-We will use a similar approach where data in its raw format is copied into the raw zone. The raw zone represents the data in its native format of the source. Examples of this are csv, avro,txt,parquet, xml,json etc. In the previous [blog](https://github.com/sarathsasidharan/fabric-launcher/blob/main/docs/load_data/load_data_scalable.md) we discussed on how fabric provides you easy options to load your data at scale. 
+We will use a similar approach where data in its raw format is copied into the raw zone. The raw zone represents the data in its native format of the source. Examples of this are csv, avro, txt,parquet, xml,json, etc. In the previous [blog](https://github.com/sarathsasidharan/fabric-launcher/blob/main/docs/load_data/load_data_scalable.md) we discussed on how fabric provides you easy options to load your data at scale. 
 
 ![raw_load](/images/raw_layer.png)
 
+In the diagram above, Data factory is copying the data into a lakehouse item in fabric. [Lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview) consists of Files and Tables folders on Onelake. Files folder represents the unstructured /unmanaged section of the lakehouse whereas Tables folder represents the structured section of the lakehouse. What does this mean , Files represent the section where files of any format (images , avro , csv, json,xml) could be housed, whereas the Tables section is to house the structured format.  The tables section provides you an awesome functionality, if your data is in delta lake format then it automatically provides a table on top of this data to query.We will discuss this more in the following blogs.
 
-
+This construction makes it a good choice to house raw data in the Files folder of Lakehouse since this allows you to store the data in its raw form. There are different ways to organize your folders within the lakehouse folders, the same principles used in previous data platforms can be adopted here. 
