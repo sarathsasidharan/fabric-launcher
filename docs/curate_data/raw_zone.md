@@ -4,7 +4,7 @@ Once the data has landed in Fabric, the next step is to prepare the data for gen
 
 On a high level, this pattern is all about landing your data into a zone that preserves the data in its native form. The second layer is about cleaning up the data to improve data quality and the final layer is where the data is modeled and made ready for consumption for business teams.
 
-We will use a similar approach where data in its raw format is copied into the raw zone. The raw zone represents the data in its native format of the source. Examples of this are csv, avro,txt,parquet, xml,json etc. In the previous [blogs]() we did discuss 
+We will use a similar approach where data in its raw format is copied into the raw zone. The raw zone represents the data in its native format of the source. Examples of this are csv, avro,txt,parquet, xml,json etc. In the previous [blog](https://github.com/sarathsasidharan/fabric-launcher/blob/main/docs/load_data/load_data_scalable.md) we discussed on how fabric provides you easy options to load your data at scale. 
 
 
 
