@@ -24,7 +24,7 @@ Fabric comes up with a very interesting concept of [shortcuts](https://learn.mic
 
 This is a very interesting alternative for users to quickly get data for analysis, without having to copy the data into fabric.
 
-Once this data is in the raw zone, the next blogs will dive into what are the options available to start transforming the data and get it ready for business use.
+Once this data is in the bronze zone, the next blogs will dive into what are the options available to start transforming the data and get it ready for business use.
 
 
 
